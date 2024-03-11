@@ -4,7 +4,7 @@
 
 Find And Replace Text command line utility. New & improved version of the well-known grep command, with advanced features such as: case-adaption of the replace string; find (& replace) in filenames.
 
-- Quick usage:
+**Quick usage:**
 ```sh
 fart -c big_filename.txt "find_this_text" "replace_to_this"
 ```
