@@ -6,7 +6,7 @@ Find And Replace Text command line utility. New & improved version of the well-k
 
 **Quick usage:**
 ```sh
-fart -c big_filename.txt "find_this_text" "replace_to_this"
+fart -c <file-name> "find_this_text" "replace_to_this"
 ```
 
 ```
