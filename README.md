@@ -14,7 +14,7 @@ wget https://github.com/mrx7014/fart-it/releases/download/10434154338/fart-ubunt
 ```sh
 ./fart -c <file_name> "find_this_text" "replace_to_this"
 ```
-
+```
 Usage: fart [options] [--] <wildcard>[,...] [find_string] [replace_string]
 
 Options:
