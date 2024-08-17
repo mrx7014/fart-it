@@ -26,13 +26,11 @@ jobs:
     - name: Zip (Windows)
       if: matrix.os == 'windows'
       run: Compress-Archive -Path fart.exe -Destination fart-${{ matrix.os }}.zip
-    - uses: actions/upload-artifact@v3
+    - name: Upload Fart Packages to Release
+      uses: softprops/action-gh-release@master
       with:
-        path: fart-*.zip
-    - name: Release
-      uses: softprops/action-gh-release@v1
-      if: startsWith(github.ref, 'refs/tags/')
-      with:
-        files: fart-${{ matrix.os }}.zip
-        generate_release_notes: true
-        append_body: true
+        files: |
+          /home/runner/work/fart-it/fart-it/*.zip
+          
+        name: Fart it
+        tag_name: ${{ github.run_id }}
