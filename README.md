@@ -4,12 +4,17 @@
 
 Find And Replace Text command line utility. New & improved version of the well-known grep command, with advanced features such as: case-adaption of the replace string; find (& replace) in filenames.
 
-**Quick usage:**
+**Quick Usage (For Linux):**
+
+- Download:
+```sh
+wget https://github.com/mrx7014/fart-it/releases/download/10434154338/fart-ubuntu.zip ; unzip fart-ubuntu.zip ; sudo rm -r fart-ubuntu.zip"
+```
+- How To Use:
 ```sh
 ./fart -c <file_name> "find_this_text" "replace_to_this"
 ```
 
-```
 Usage: fart [options] [--] <wildcard>[,...] [find_string] [replace_string]
 
 Options:
