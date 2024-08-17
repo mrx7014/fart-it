@@ -6,9 +6,9 @@ Find And Replace Text command line utility. New & improved version of the well-k
 
 **Quick Usage (For Linux):**
 
-- Download:
+- Download and Install Required Packages:
 ```sh
-wget https://github.com/mrx7014/fart-it/releases/download/10434154338/fart-ubuntu.zip ; unzip fart-ubuntu.zip ; sudo rm -r fart-ubuntu.zip
+sudo apt install wget unzip ; wget https://github.com/mrx7014/fart-it/releases/download/10434154338/fart-ubuntu.zip ; unzip fart-ubuntu.zip ; sudo rm -r fart-ubuntu.zip
 ```
 - How To Use:
 ```sh
